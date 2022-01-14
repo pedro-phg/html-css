@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83E2AB;
+    margin: 0;
+    
+}
+header {
+    background-image: linear-gradient(to bottom, #50CA85, #5DB584, #1A5C37);
+    padding: 20px;
+    height: 150px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+}
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+        
+}
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+    margin-bottom: 38px;
+    text-align: center;
+
+}
+
+p {
+    text-align: justify;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 10px 0px 0px;
+}
+nav a:hover {
+    background-color: #50CA85;
+    border-radius: 5px;
+    
+}
+.texto {
+    background-color: white;
+    padding: 20px;
+    width: 850px;
+    margin: auto;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
+}
+
+article > h1 {
+    font-family: 'android', 'Arial';
+    font-size: 2em;
+    color: green;
+}
+article > h2{
+    font-family: 'android', Arial;
+    background-color: rgb(205, 255, 205);
+    color: green;
+    width: max-content;
+    padding: 1px 80px 1px 7px;
+}
+
+article > p {
+    text-indent: 25px;
+}
+
+#destaque {
+    color: green;
+    font-weight: bold;
+}
+a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+p> a::after {
+    content: ' ❞';
+}
+
+.foto {
+    display: block;
+    margin: auto;
+    
+}
+.video{
+    display: block;
+    background-color: #093D1F;
+    padding: 20px 40px;
+    width: 810px;
+    height: 450px;
+    margin: auto;
+}
+
+.info {
+    background-color: #97f8bf;
+    
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
+}
+.info > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(12, 150, 65);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+.info > p {
+    text-indent: 25px;
+    text-align: justify;
+    margin: 5px 20px;
+}
+.lista {
+    display: inline-block;
+    text-align: justify;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #093D1F;
+    padding: 10px;
+
+}
+

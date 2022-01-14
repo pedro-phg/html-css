@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Procurarar: CSS web safe font combinations*/
+            text-align: justify;
+            /*
+            Para os tamanhos (size) de fontes, temos as seguintes medidas: 
+
+            MEDIDAS ABSOLUTAS
+            cm, mm, in (polegada), px, pt (ponto), pc (paica)
+
+            MEDIDAS RELATIVAS
+            em (relativo ao M maiúsculo da fonte), ex (referente à altura do x minúsculo da fonte), rem (igual ao 'em' mas relativo à fonte configurada no body), vw (porcentagem da largura de tela do dispositivo (viewport)), vh (porcentagem da altura da viewport)
+
+            16 px (geralmente) = 1 em = tamanho normal da fonte
+            */
+            font-size: 1em; /*melhor, pois trabalha com porcentagem da fonte padrão*/
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+       
+        /*
+        PESO DA FONTE: font-weight: 
+        variação: lighter, normal, bold, bolder 
+        variação numérica: de 100 a 900
+    
+        ESTILO DA FONTE: 
+        font-style: italic, normal
+        text-decoration: underline
+
+        Para facilitar, podemos fazer a declaração de fonte tudo numa linha só, seguindo a seguinte ordem:
+
+        font: style weight size family
+        Exemplo:
+        font: italic bolder 3em 'Work Sans', sans-serif;
+
+        */
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a ex earum expedita pariatur molestias est nostrum, inventore numquam quae minus itaque ea magni cupiditate libero fugit praesentium explicabo iure! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eum esse, alias voluptatem officia hic sed impedit incidunt qui nam possimus ratione vero laboriosam maxime est? Modi quibusdam repellendus odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsa saepe inventore nihil vel praesentium doloribus corporis obcaecati, perferendis fugit est accusamus voluptatibus, deleniti id dolore optio ipsam voluptas laudantium.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam neque doloremque soluta laudantium officiis aliquid perferendis necessitatibus culpa, cupiditate non nisi ullam vitae qui, obcaecati totam amet a fugit ab.</p>
+</body>
+</html>

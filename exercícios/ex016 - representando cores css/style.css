@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*Configurações Globais*/
+* {
+    font-family: Georgia;
+}
+
+p{
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.726);
+}
+body{
+    background-image: linear-gradient(to bottom, #ffffff, #dfdfdf);
+    background-attachment: fixed;
+    height: 100%;
+}
+main{
+    background-color: white;
+    border-radius: 10px; /*coloca uma borda mais arredondada no main*/
+    box-shadow: 5px 5px 15px rgba(158, 158, 158, 0.253); /* box-shadow: quanto anda pra direita, quanto anda pra baixo, quanto espalha, cor*/
+    width: 600px;
+    padding: 20px; /*espaçamento entre a borda e o conteúdo*/
+    margin: auto; /*automaticamente centraliza o conteúdo*/
+}
+h1 {
+    color: #0C2E59;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(6, 20, 39, 0.144);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: white;
+    background-image: linear-gradient(to right, #1853a1, #0a2447 );
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.692);
+}

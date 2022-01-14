@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i"> 
+    <!--
+        type = "1" (cria uma lista numérica)
+         type = "A" (lista em ordem alfabética com letras maísculas)
+         type = "a" (lista em ordem alfabética com letras minúsculas)
+         type = "i" (lista em ordem numérica em números romanos minúsculos)
+         type = "I" (lista em ordem numérica em números romanos maiúsuculos)
+    -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os Dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square">
+    <!--
+        type = "disc" (bolinhas preenchidas)
+        type = "circle" (bolinhas não-preenchidas)
+        type = "square" (quadradinhos)
+    -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+
+    </ul>
+    <h2>Minhas Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type = "a" start="5"> <!-- start = "5" estou começando a contar a partir do 5º elemento-->
+            <li>PHP</li>
+            <li>Python</li>
+            <ul type = 'disc'>
+                <li>Pandas</li>
+                <li>pyAutoGUI</li>
+                <li>numpy</li>
+            </ul>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <hr>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de Programação para a criação da interatividade de um site.</dd>
+    </dl>
+
+</body>
+</html>

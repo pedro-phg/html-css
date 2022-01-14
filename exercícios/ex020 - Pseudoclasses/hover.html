@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Exemplo</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        div > p { /*significa que ele vai executador os comandos em todos os paráfragos que estiverem dentro da div*/
+            display: none;
+        }
+        div:hover > p { /*Quando eu passar o mouse da div, execute os seguintes comandos em todos os parágrafos que se encontram dentro dela*/
+            display:block;
+            color: white;
+            background-color: tomato;
+            width: max-content;
+            padding: 5px;
+        }
+        div:hover{
+            color: tomato;
+        }
+        h1:hover {
+            color: white;
+            background-color: blue;
+            width: max-content;
+            padding: 10px;
+            border-radius: 2px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+        <p>Mais um texto escondido!</p>
+    </div>
+    <p>Fim do Exemplo</p>
+    
+</body>
+</html>

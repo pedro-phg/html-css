@@ -1,0 +1,46 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+#t-principal {
+    background-color: rgb(143, 36, 153);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: max-content;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#t-principal:hover {
+    background-color: rgb(105, 28, 112);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.link {
+    background-color:rgb(143, 36, 153);
+    width: max-content;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+}
+
+.link:hover{
+    background-color: rgb(105, 28, 112);
+}
+
+.video {
+    margin: 20px auto 10px auto;
+}

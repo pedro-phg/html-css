@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Áudios</title>
+</head>
+<body>
+    <h1>Inserindo Áudios no meu Site</h1>
+    <p>Vamos aprender a reproduzir <em>áudios</em> em HTML5.</p>
+    <hr>
+    <audio preload="metadata" controls>
+        <source src="audios/happy-mistake.mp3" type="audio/mpeg">
+        <source src="audios/guanacast-33.mp3" type="audio/mpeg">
+        <!--Ele vai tentar carregar os áudios linha por linha, caso não consiga uma, ele pula para outra.-->
+        <source src="audios/guanacast-40.wav" type="audios/wav">
+        <source src="audios/guanacast-41.ogg" type="audios/ogg">
+        
+    </audio>
+    <p>Infelizmento o seu navegador não conseguiu carregar o áudio.</p>
+    <a href="audios/guanacast-33.mp3" target="_blank"><strong>Clique aqui para visualizar o arquivo</strong></a>
+    
+</body>
+</html>
