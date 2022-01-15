@@ -10,17 +10,22 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100&display=swap');
 
         body {
+            height: 100vh;
             background-color: rgb(39, 39, 39);
             background-image: url("img/wallpaper002.jpg");
             background-repeat: no-repeat;
             background-position: center top;
-            background-size: cover;
-            /*a imagem sempre cobre 100% da tela*/
+            background-size: cover; /*a imagem sempre cobre 100% da tela*/
+            background-attachment: fixed; /*o background fica fixo*/
+            
+            /*Shorthand - background*/
+
+            /*color > image > position > repeat > [size] > attachment*/
         }
 
         main {
             background-color: white;
-            width: 800px;
+            max-width: 80%;
             padding: 10px;
             margin: auto;
             border-radius: 10px;
