@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Fundo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        body {
+            height: 98vp;
+            width: 100vp;
+            background-image: url("imagens/wallpaper002.jpg");
+            background-repeat: repeat-x;
+            background-size: cover;
+            /*mesmo se a pessoa der zoom a imagem fica do mesmo tamanho*/
+
+        }
+
+        header h1 {
+            color: white;
+            font-family: Montserrat;
+            font-weight: 200;
+            font-size: 10em;
+            text-align: center;
+            margin: 15% 10% 0px 10%;
+        }
+
+        header hr {
+            width: 60%;
+            display: block;
+            margin: auto;
+
+
+        }
+
+        #t1 {
+            background-color: rgb(20, 20, 20);
+            padding: 10px 40px;
+        }
+
+        #t2 {}
+
+        .footer {
+            flex-shrink: 0;
+            bottom: 0;
+            margin: 0px;
+            width: 100vp;
+            background-color: rgb(27, 27, 27);
+            padding: 40px;
+            margin-top: 80%;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .menu {
+            display: block;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 30px;
+            font-family: Montserrat;
+        }
+
+        .menu a {
+            display: inline;
+            color: white;
+            padding: 10px;
+            border-radius: 2px;
+            background-color: rgb(27, 27, 27);
+        }
+
+        .menu a:hover {
+            background-color: rgb(44, 44, 44);
+        }
+
+        .menu a:active {
+            color: transparent;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><span id="t1">Aeroporto</span> <span id="t2">Guarulhos</span></h1>
+        <hr>
+    </header>
+
+    <nav class="menu">
+
+        <a href="#">Voos</a>
+        <a href="#">Localização</a>
+        <a href="#">Contato</a>
+
+    </nav>
+
+    <div>
+
+    </div>
+
+    <footer class="footer">
+        <p>Rodapé do site</p>
+    </footer>
+</body>
+
+</html>
