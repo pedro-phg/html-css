@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+
+    <!--CSS-->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            position: relative;
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr.dado:hover {
+            background-color: rgb(165, 165, 165);
+        }
+
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+
+        /*Adicionando Efeito Zebrado em uma tabela*/
+        tbody tr:nth-child(2n) { /*Ao invés de 2n posso colocar odd (para linhas ímpares) or even (para linhas pares)*/
+            background-color: lightgray;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>LEGENDA: 10 ESTADOS MAIS POPULOSOS</caption>
+        <thead>
+            <tr class="title">
+                <th scope="col">Estado</th> <!--Coloco nos th's que são títulos de uma coluna-->
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class = "dado">
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr class = "dado">
+                <td>Minas Gerais</td>
+                <td>21 411 923</td>
+            </tr>
+            <tr class = "dado">
+                <td>Rio de Janeiro</td>
+                <td>16 463 349</td>
+            </tr>
+            <tr class="dado">
+                <td>Bahia</td>
+                <td>14 985 284</td>
+            </tr>
+            <tr class="dado">
+                <td>Paraná</td>
+                <td>11 597 484</td>
+            </tr>
+            <tr class="dado">
+                <td>Rio Grande do Sul</td>
+                <td>11 466 630</td>
+            </tr>
+            <tr class="dado">
+                <td>Pernambuco</td>
+                <td>9 674 793</td>
+            </tr>
+            <tr class="dado">
+                <td>Ceará</td>
+                <td>9 240 580</td>
+            </tr>
+            <tr class="dado">
+                <td>Pará</td>
+                <td>8 777 124</td>
+            </tr>
+            <tr class="dado">
+                <td>Santa Catarina</td>
+                <td>7 338 473</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="title">
+                <th scope="row">Total de Habitantes</th> <!--Coloco nos th's que são títulos de uma linha-->
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
